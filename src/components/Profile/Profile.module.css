@@ -1,0 +1,60 @@
+.contProfile {
+    border: 3px solid #2a2a2a;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .user {
+    padding: 0;
+  }
+  .userImg {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+  }
+  
+  .userName {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .userTag {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(152 151 151);
+  }
+  .userLocation {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(152 151 151);
+  }
+
+  .userList {
+    overflow: hidden;
+    border-top: 3px solid rgb(152 151 151);
+    display: flex;
+  }
+  .userStats {
+    flex: 1 0 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: rgb(218 216 216);
+    border-right: 3px solid rgb(152 151 151);
+  }
+  .userStats:nth-child(3) {
+    border-right: 0;
+  }
+  
+  .userInd {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .quantity {
+    font-size: 30px;
+    font-weight: 700;
+  }
