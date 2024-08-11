@@ -2,10 +2,10 @@
 import "../App/App.module.css";
 import Profile from "../Profile/Profile";
 import userData from "../Profile/userData.json";
+import FriendList from "../FriendList/FriendList";
+import friends from "../FriendList/friends.json";
 
 export default function App() {
-    
-  
     return (
       <div>
         <Profile
@@ -16,6 +16,7 @@ export default function App() {
           image={userData.avatar}
           stats={userData.stats}
         />
+        <FriendList friends={friends} />
          </div>
   );
 }
