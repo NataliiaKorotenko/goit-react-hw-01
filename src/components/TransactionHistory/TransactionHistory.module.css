@@ -1,0 +1,46 @@
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 750px;
+    margin: 0 auto;
+    border: 3px solid #2a2a2a;
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+  }
+  
+  .tableTh {
+    background-color: rgb(60, 59, 59);
+    color: white;
+  }
+  
+  .tableTr {
+    padding: 10px 0;
+  }
+  
+  .tableTh,
+  .tableTd,
+  .tableTr {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+  }
+
+  .tableTd,
+  .tableTr {
+   text-align: center;
+  }
+
+  .tableTr:nth-child(odd) {
+    background-color: #fcfcfc;
+  }
+  
+  .tableTr:nth-child(even) {
+    background-color: #d9dbd9;
+  }
+  
+  .trans {
+    text-transform: capitalize;
+  }
